@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{ .Site.Title }}: {{ .Title }}</title>
+{{ partial "head.html" . }}
+<style>
+@import url('/glencampbell.css');
+</style>
+</head>
+<body lang="en">
+{{ partial "header.html" . }}
+
+{{ $h1 := .Title }}
+{{ $text := lower $h1 }}
+{{ $desc := "" }}
+
+{{ if (index $.Site.Data.reverse (lower .Title)) }}
+  {{ $item := index $.Site.Data.sections (index $.Site.Data.reverse (lower .Title)) }}
+  {{ $desc := index $item "description" }}
+  <h1>{{ index $item "title" }}</h1>
+  {{ if ne $desc "" }}
+  <article>
+  <p>{{ $desc }}</p>
+  <hr>
+  </article>
+  {{ end }}
+{{ else }}
+<h1>{{ .Title }}</h1>
+{{ end }}
+ 
+<ol class="index list">
+{{ range .Data.Pages }}
+  {{ .Render "item" }}
+{{ end }}
+</ol>
+
+{{ partial "footer.html" . }}
+</body>
+</html>

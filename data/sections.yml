@@ -1,0 +1,23 @@
+essay: 
+    title: "Essays & Poetry"
+    menu: "Essays"
+    weight: 1
+    description: "A collection of prose and poetry, both serious and profane, on numerous subjects ranging from music to software to cooking to work and biography. Most of what I write is for my own memory, but it might be interesting to someone else."
+recipe:
+    title: "Recipes"
+    menu: "Recipes"
+    weight: 2
+    description: "I enjoy cooking. These are dishes that I have adapted in some way or another."
+podcast: 
+    title: "On Garner Road"
+    menu: "Podcast"
+    description: "A few years ago, I operated an infrequent podcast wherein I interviewed interesting and unusual people on the Internet. They are archived here for all to see. All the original recordings are available."
+project:
+    title: "Software, Web Projects"
+    menu: "Projects"
+    description: "Various websites and software that I've written and deployed. Nearly all of this is open-source, and most of it was available on Github. As of 2025, I have cleaned up many of my Github repositories, and they are no longer available."
+photo:
+k6gec: 
+    title: "Ham Radio"
+    menu: "K6GEC"
+    description: "These are a number of posts related to amateur (\"ham\") radio. Since they are probably not of general interest, I keep them in a separate section here. (K6GEC is my FCC-issued callsign.)"

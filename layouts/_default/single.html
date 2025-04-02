@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{ .Site.Title }}: {{ .Title }}</title>
+{{ partial "head.html" . }}
+<style>
+@import url('/glencampbell.css');
+</style>
+</head>
+<body lang="en">
+{{ partial "header.html" . }}
+
+<h1>{{ .Title | safeHTML }}</h1>
+
+{{ if (isset .Params "audio") }}
+<audio controls>
+<source src="{{ .Params.audio }}">
+</audio>
+{{ end }}
+
+<article class="{{ .Section }}">
+{{ .Content }}
+</article>
+
+{{ if (ne .Section "") }}
+<div class="info">
+{{ if (isset .Params "author") }}
+<author><a href="{{ index .Site.Data.authlinks .Params.author }}">{{ .Params.author }}</a></author>
+<br>
+{{ end }}
+<date>written {{ .Date.Format "January 2, 2006" }}</date>
+{{ if (isset .Params "published") }}
+<br>
+<date class="published">updated {{ .PublishDate.Format "January 2, 2006" }}</date>
+{{ end }}
+{{ if (isset .Params "location") }}
+<br>
+in {{ .Params.location }}
+{{ end }}
+{{ $baseurl := .Site.BaseURL }}
+{{ if .Params.tags }}
+    <ul class="tags">
+    tags
+    {{ range sort .Params.tags }}
+    <li><a href="{{ $baseurl }}tags/{{ . | urlize }}.html">{{ . }}</a></li>
+    {{ end }}
+    </ul>
+{{ end }}
+</div>
+{{ end }}
+
+{{ if .Params.listtags }}
+<ol class="tags cloud">
+{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+<li><a href="/tags/{{ $name | urlize }}.html" class="{{ if (gt $taxonomy.Count 8) }}huge{{ else if (gt $taxonomy.Count 4) }}large{{ else if (gt $taxonomy.Count 1) }}medium{{ else }}small{{ end }}" title="{{ if (eq $taxonomy.Count 1) }}1 page{{ else }}{{ $taxonomy.Count }} pages{{ end }}">{{ $name }}</a></li>
+{{ end }}
+</ol>
+{{ end }}
+
+{{ partial "footer.html" . }}
+</body>
+</html>

@@ -1,0 +1,55 @@
+baseurl = "https://glencampbell.xyz/"
+languageCode = "en-us"
+title = "Glen Campbell"
+uglyURLS = true
+copyright = "2009-2025"
+sectionPagesMenu = "main"
+[markup.goldmark.renderer]
+unsafe= true
+[blackfriday]
+fractions = false
+
+[permalinks]
+essay = "/essay/:year/:month/:filename"
+project = "/project/:filename"
+author = "/author/:filename"
+photo = "/photo/:year/:month/:filename"
+
+[params]
+Description = "Fresh content served occasionally"
+Author = "Glen Campbell"
+mainSections = ["essay", "recipe"]
+
+[[menu.main]]
+identifier="author"
+Weight=-1
+
+[[menu.main]]
+name="K6GEC"
+identifier="k6gec"
+url="/k6gec.html"
+Weight=9
+
+[[menu.main]]
+name="Podcast"
+identifier="podcast"
+url="/podcast.html"
+weight=3
+
+[[menu.main]]
+name="Essays"
+identifier="essay"
+url="/essay.html"
+weight=1
+
+[[menu.main]]
+name="Projects"
+identifier="project"
+url="/project.html"
+weight=8
+
+[[menu.main]]
+identifier="recipe"
+name="Recipes"
+weight=2
+url="/recipe.html"

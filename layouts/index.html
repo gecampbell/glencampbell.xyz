@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{ .Site.Title }}</title>
+<!--
+---- This is the blog/website of Glen Campbell.
+---- Please stay tuned to this comment section.
+---- Something is happening.
+-->
+{{ partial "head.html" . }}
+<link rel="alternate" href="http://glencampbell.xyz/index.xml" type="application/rss+xml" title="{{ .Site.Title }}">
+<style>
+@import url('/glencampbell.css');
+</style>
+</head>
+<body lang="en">
+<h1 class="home">{{ .Site.Title }}</h1>
+<hr>
+<article class="home">
+<p>Welcome to <a href="/about.html">my website</a>.  This is where
+I write about things that interest me.  Hopefully, readers might
+occasionally find it interesting, too.  I write mostly about things
+that happen in my life: personal history, music, software, travel,
+<a href="http://glenc.photos" title="My photography
+website">photography</a>, cooking, and occasional ill-advised forays
+into politics (though I have to say that politics is a subject that
+should generally be avoided, because it tends to overshadow everything
+else that's useful or interesting).</p>
+
+<p><a href="https://glencampbell.photography">Glen Campbell Photography</a>, 
+my photography website.</p>
+
+<hr>
+
+{{ range $key, $value := .Site.Data.sections }}
+	{{ with $value }}
+	<h2><a href="{{ $key }}.html">{{ .title }}</a></h2>
+	<p>{{ .description }}</p>
+	<ol class="index list">
+  	{{ range (where $.Site.Pages "Section" $key) }}
+  		{{ if ne .Kind "section" }}
+		  {{ .Render "item" }}
+		{{ end }}
+  	{{ end }}
+	</ol>
+	<hr>
+	{{ end }}
+{{ end }}
+
+<h2>Miscellaneous</h2>
+<ol class="index list">
+{{ range where .Data.Pages.ByTitle "Section" "==" "" }}
+  {{ .Render "item" }}
+{{ end }}
+</ol>
+</article>
+
+{{ partial "footer.html" . }}
+</body>
+</html>

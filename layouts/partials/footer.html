@@ -1,0 +1,23 @@
+<footer>
+{{ if isset .Params "author" }}
+  &copy;{{ .Date.Format "2006" }} 
+  <a href="{{ index .Site.Data.authlinks .Params.author }}">{{ .Params.author }}</a>.
+{{ else }}
+  &copy;{{ .Site.Copyright }} Glen Campbell.
+{{ end }}
+All rights reserved.
+Project by <a href="http://broadpool.com">Broadpool</a>.
+<span class="right-menu">
+<a href="/tags.html" title="Tags">Tags</a>
+<a href="/tos.html" title="Terms of Service">TOS</a>
+<a href="/about.html" title="About this site">About</a>
+</span>
+</footer>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-68302125-1', 'auto');
+  ga('send', 'pageview');
+</script>
