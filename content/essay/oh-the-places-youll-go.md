@@ -1,6 +1,7 @@
 +++
 author = "Glen Campbell"
 date = "2015-11-06T14:18:05-08:00"
+published = "2025-04-02T16:18:05-07:00"
 draft = false
 location = "Lynnwood, WA (USA)"
 tags = ["travel", "usa", "europe", "home", "maps", "cartography"]
