@@ -72,6 +72,10 @@ areas :
 		"showAsSelected": true
 	},
 	{
+		"id": "US-ID",
+		"showAsSelected": true
+	},
+	{
 		"id": "US-IL",
 		"showAsSelected": true
 	},
@@ -282,6 +286,10 @@ areas :
 	},
 	{
 		"id": "CA",
+		"showAsSelected": true
+	},
+	{
+		"id": "HU",
 		"showAsSelected": true
 	},
 	{
