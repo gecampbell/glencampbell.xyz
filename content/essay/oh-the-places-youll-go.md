@@ -297,6 +297,10 @@ areas :
 		"showAsSelected": true
 	},
 	{
+		"id": "IS",
+		"showAsSelected": true
+	},
+	{
 		"id": "US",
 		"showAsSelected": true
 	},
