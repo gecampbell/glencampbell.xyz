@@ -1,11 +1,11 @@
 +++
 author = "Glen Campbell"
 date = "2016-03-29T20:37:39-07:00"
+published = "2025-04-02T10:00:00-07:00"
 draft = false
 location = "Lynnwood, WA (USA)"
 tags = ["biography", "medical", "injury", "doctor", "TBI"]
 title = "Syncope"
-
 +++
 
 On February 25, I passed out. It's still not exactly certain *why* I passed out. The day before, I had a cold (diagnosed by a visit to my doctor after several days of running a fever) and a temperature of 102&deg;F. That evening (of the 24th), I took Thera-Flu&reg;, my "go-to" medicine of choice for colds and sinus congestion. 
@@ -48,6 +48,22 @@ There's scarring, of course, and I've been told several ways to minimize that (m
 
 The biggest concern of all the doctors was the concussion: they've advised me that, after a concussion, sometimes people returning to work experience "fuzziness" or headaches upon more intense mental concentration. Luckily, that doesn't seem to be a problem in my case. The worst effect so far has been a lot of tiredness. I can go through a full day's work, but I'm dead tired when I get home. I imagine that's because the body is still healing, and there's only a finite amount of energy throughout the day. The tiredness is receding, however, as the injuries heal, and I imagine that I'll be back to full strength in a few months. 
 
-One of the biggest annoyances (so far) is that the laceration in my forehead "nearly severed" a nerve, and thus my forehead (from the scar up to about the middle of my head) is essentially numb. There's some hope that the nerve will heal and I'll regain some feeling there, but that hasn't happened so far (and may never happen). 
+One of the biggest annoyances (so far) is that the laceration in my forehead "nearly severed" a nerve, and thus my forehead (from the scar up to about the middle of my head) is essentially numb. There's some hope that the nerve will heal and I'll regain some feeling there, but that hasn't happened so far (and may never happen).
+
+## Update: 2025
+
+As of April 2025, I still have the scar, my forehead is still numb, but otherwise no major long-lasting issues. 
+Since the incident, I've been involved in a long-term "track study,"
+run by the University of Washington, that keeps tabs on 
+traumatic brain injury (TBI) patients over time. 
+I meet with them for a few hours every couple of years; I get an MRI 
+and they give me a number of cognitive and memory-related tests. 
+According to the researcher, I'm in a group of less than 2% of TBI survivors who
+have no measurable loss of brain function. 
+
+The reconstructive surgery on my right eye has done something to the tear duct. 
+I often have draining and sometimes crusting because of it; we suspect that 
+something was damaged during the incident to cause this. If this is the only
+long-lasting effect of the injury, then I count myself lucky. 
 
 [^1]: While the surgeons were repairing the damage later, they left the operating room during the middle of the procedure to talk to my wife. "We found a large quantity of white powder in the wound. Do you know what that is?" "Drywall." "Oh, ok."
