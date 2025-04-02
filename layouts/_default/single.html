@@ -40,7 +40,7 @@ in {{ .Params.location }}
 {{ $baseurl := .Site.BaseURL }}
 {{ if .Params.tags }}
     <ul class="tags">
-    tags
+    tagged
     {{ range sort .Params.tags }}
     <li><a href="{{ $baseurl }}tags/{{ . | urlize }}.html">{{ . }}</a></li>
     {{ end }}
