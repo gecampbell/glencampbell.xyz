@@ -49,7 +49,7 @@ my senior year. Our conductor, Dean Fishburn, was a man of poor
 morals and huge passion who somehow converted a truly rag-tag bunch
 of students into the finest high-school orchestra in the state. At
 the same time, we formed a jazz band led by the inimitable Don
-Knapp&mdash;since the jazz band was formed *ad hoc** and thus had no
+Knapp&mdash;since the jazz band was formed *ad hoc* and thus had no
 budget, we used his "book"&mdash;an amazing collection of original
 scores of the greatest Big Band hits of the 1940's and 50's.
 
