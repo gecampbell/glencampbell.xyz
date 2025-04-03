@@ -1,5 +1,6 @@
 +++
 date = "2015-09-20T10:00:30-07:00"
+publish = "2025-04-02T21:00:00-07:00"
 title = "Glen Campbell"
 location = "Lynnwood, Washington (USA)"
 +++
