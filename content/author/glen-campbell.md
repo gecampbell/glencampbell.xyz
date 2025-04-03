@@ -49,7 +49,7 @@ my senior year. Our conductor, Dean Fishburn, was a man of poor
 morals and huge passion who somehow converted a truly rag-tag bunch
 of students into the finest high-school orchestra in the state. At
 the same time, we formed a jazz band led by the inimitable Don
-Knapp&mdash;since the jazz band was formed ad hoc and thus had no
+Knapp&mdash;since the jazz band was formed *ad hoc** and thus had no
 budget, we used his "book"&mdash;an amazing collection of original
 scores of the greatest Big Band hits of the 1940's and 50's.
 
@@ -58,6 +58,8 @@ University](http://www.baylor.edu) in Waco, Texas, on a music
 composition scholarship. While there, I helped form a Christian
 rock band named SpiritWind, one of the first CamelCase bands in
 existence. We toured and performed, and I loved every minute of it.
+I learned guitar from our guitarist on board the van that took us 
+from state to state during a tour one summer.
 Ultimately, however, I tired of music and finally graduated with a
 degree in English Language and Literature, which I promptly ignored.
 
@@ -80,8 +82,8 @@ Eventually, I moved and and came to live in Silicon Valley in 2000.
 After a string of startups and lengthy periods of unemployment
 caused by the 9/11 incident and subsequent economic downturn, I
 went to work for [Yahoo! News](http://news.yahoo.com) in October,
-2004. I have played various roles in launching and upgrading many
-sites within the Media division of Yahoo!
+2004. I played various roles (both engineer and manager) in launching
+and upgrading many sites within the Media division of Yahoo!
 
 In 2009, I became interested in the ukulele, mainly through the
 influence of such musical geniuses as [Jake
