@@ -18,6 +18,7 @@ aws s3 sync . s3://glencampbell.xyz \
     --content-type 'text/html; charset=utf-8' \
     --acl public-read \
     --delete
+
 echo ==
 echo Uploading non-HTML files...
 echo ==
@@ -26,4 +27,5 @@ aws s3 sync . s3://glencampbell.xyz \
     --cache-control 'max-age=600' \
     --acl public-read \
     --delete
+
 echo Done
