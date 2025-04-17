@@ -1,7 +1,7 @@
 +++
 author = "Glen Campbell"
 date = "2016-03-29T20:37:39-07:00"
-published = "2025-04-02T10:00:00-07:00"
+published = "2025-04-16T10:00:00-07:00"
 draft = false
 location = "Lynnwood, WA (USA)"
 tags = ["biography", "medical", "injury", "doctor", "TBI"]
@@ -38,6 +38,9 @@ forehead and across my right eye. The front of the sinus over my
 forehead was crushed, and the bone over my right eye (the *orbital*)
 was splintered into several mean-looking shards that were left
 pointing at my eyeball.
+
+> Note: there are some pretty horrific images of blood and bodily
+> damage below. Don't scroll down unless you're ok with that. 
 
 I also suffered a *subarachnoid hemorrhage*, which means that my
 brain was bleeding. This was probably an effect of the fall, but
