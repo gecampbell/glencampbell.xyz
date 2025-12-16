@@ -10,7 +10,7 @@ location = "Lynnwood, Washington (USA)"
 * [Photography Portfolio](https://glencampbell.photography)
 * [Github](https://github.com/gecampbell)
 * **Sites I've Built**
-* [Clock](https://broadpool.xyz)
+* [Clock/Home Page](https://hwæt.com)
 
 </div>
 I was born in 1961 the fetid swamps of southeast Texas, in the city
