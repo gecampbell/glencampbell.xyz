@@ -10,10 +10,10 @@ unsafe= true
 fractions = false
 
 [permalinks]
-essay = "/essay/:year/:month/:filename"
-project = "/project/:filename"
-author = "/author/:filename"
-photo = "/photo/:year/:month/:filename"
+essay = "/essay/:year/:month/:contentbasename"
+project = "/project/:contentbasename"
+author = "/author/:contentbasename"
+photo = "/photo/:year/:month/:contentbasename"
 
 [params]
 Description = "Fresh content served occasionally"
@@ -27,29 +27,29 @@ Weight=-1
 [[menu.main]]
 name="K6GEC"
 identifier="k6gec"
-url="/k6gec.html"
+url="/k6gec"
 Weight=9
 
 [[menu.main]]
 name="Podcast"
 identifier="podcast"
-url="/podcast.html"
+url="/podcast"
 weight=3
 
 [[menu.main]]
 name="Essays"
 identifier="essay"
-url="/essay.html"
+url="/essay"
 weight=1
 
 [[menu.main]]
 name="Projects"
 identifier="project"
-url="/project.html"
+url="/project"
 weight=8
 
 [[menu.main]]
 identifier="recipe"
 name="Recipes"
 weight=2
-url="/recipe.html"
+url="/recipe"

@@ -19,7 +19,7 @@ the user-agent transmitted by their browser or other device.
 ## AI training
 
 All content on this site is available for use in training AI large-language
-models for the fee of $24,000.00 (ISD) per day or part thereof.
+models for the fee of $42,000.00 (USD) per day or part thereof.
 Any access of this site by an
 AI company, its employees, bots, or scrapers, constitutes acceptance of these terms. 
 

@@ -34,7 +34,7 @@ my photography website.</p>
 
 {{ range $key, $value := .Site.Data.sections }}
 	{{ with $value }}
-	<h2><a href="{{ $key }}.html">{{ .title }}</a></h2>
+	<h2><a href="{{ $key }}">{{ .title }}</a></h2>
 	<p>{{ .description }}</p>
 	<ol class="index list">
   	{{ range (where $.Site.Pages "Section" $key) }}
