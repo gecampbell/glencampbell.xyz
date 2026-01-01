@@ -2,7 +2,7 @@ baseurl = "https://glencampbell.xyz/"
 languageCode = "en-us"
 title = "Glen Campbell"
 uglyURLS = true
-copyright = "2009-2025"
+copyright = "2009-2026"
 sectionPagesMenu = "main"
 [markup.goldmark.renderer]
 unsafe= true
