@@ -1,7 +1,7 @@
 +++
 author = "Glen Campbell"
 date = "2015-10-19T13:30:11-07:00"
-updated = "2026=01-01T16:55:00-08:00"
+published = "2026-01-01T16:55:00-08:00"
 tags = ["essay", "other", "memory", "alzheimers", "gerontology", "age", "mark knopfler", "glen campbell"]
 title = "Rage, Rage"
 
