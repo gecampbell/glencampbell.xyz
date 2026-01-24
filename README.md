@@ -50,3 +50,4 @@ the site to S3:
 You of course need to have your credentials properly set up in the
 `aws` CLI tool.
 
+updated 1/24/2026
