@@ -3,9 +3,7 @@ title: "Happy Birthday"
 author: "Glen Campbell"
 category: essays
 tags: [son,birth,autobiography,biography,seton,austin,texas]
-comments: true
 date: "2013-04-18T08:00:00-07:00"
-comments: true
 ---
 In April, 1991, lots of things were happening. My wife, Anita, was
 pregnant with our first child (due at the end of May), and I had

@@ -3,9 +3,7 @@ title: "Is the Internet still up?"
 author: "Glen Campbell"
 category: essays
 tags: [internet,status,website,software, github]
-comments: true
 date: "2013-04-06T09:10:00-07:00"
-comments: true
 ---
 I know that you, like me, have often wondered whether or not the
 Internet is still running. Now you need worry no more. I have created
