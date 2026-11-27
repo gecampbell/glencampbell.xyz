@@ -1,6 +1,6 @@
 +++
 date = "2015-09-20T10:00:30-07:00"
-publish = "2025-04-02T21:00:00-07:00"
+publish = "2026-11-27T15:00:00-07:00"
 title = "Glen Campbell"
 location = "Lynnwood, Washington (USA)"
 +++
@@ -10,7 +10,8 @@ location = "Lynnwood, Washington (USA)"
 * [Photography Portfolio](https://glencampbell.photography)
 * [Github](https://github.com/gecampbell)
 * **Sites I've Built**
-* [Clock/Home Page](https://hwæt.com)
+* [About Me](https://glenc.xyz)
+* [My Home Page](https://broadpool.com)
 
 </div>
 I was born in 1961 the fetid swamps of southeast Texas, in the city
@@ -73,7 +74,7 @@ I worked for a while for BMC Software, then went to work for another
 startup, Evolutionary Technologies International (ETI).
 
 I was with ETI for nearly eight years; the last four of which I
-lived and worked in Europe. Living as an expatriate was a life-changing
+lived and worked in Europe. Living as an expatriat was a life-changing
 experience; there's nothing like living and working in a foreign
 environment to teach you how to relate to people of different
 cultures.
@@ -102,10 +103,10 @@ In 2015, I moved on to an engineering manager position with
 [Amazon](http://www.amazon.com) and moved to Seattle, WA. In October
 of 2015, we purchased a house in Lynnwood, WA, where we live today.
 
+Amazon fired me in July 2026 and thus I am now retired. 
+
 I drive a ~~Jeep Wrangler~~ Mini Cooper SE and my amateur radio callsign is
 [K6GEC](http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?licKey=2785484).
-
-&raquo; [Click here to see my current r&eacute;sum&eacute;](/resume.html)
 
 [^1]: You know, I think I've realized that I no longer have an
       "insatiable fascination with Reader's Digest."
